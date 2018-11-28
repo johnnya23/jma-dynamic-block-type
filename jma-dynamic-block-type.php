@@ -5,8 +5,11 @@ Description: Establish structure and process for dynamic block types
 Version: 1.0
 Author: John Antonacci
 License:
+@package Gutenberg_Feature_Block
 https://wisdomplugin.com/build-gutenberg-block-plugin/
 */
+// Exit if accessed directly.
+defined('ABSPATH') || exit;
 
 function jmadblock_enqueue_block_editor_assets()
 {
